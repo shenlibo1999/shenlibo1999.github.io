@@ -14,7 +14,7 @@ Research Interest: Emerging Architecture, HW/SW Codesign, EDA
 
 Education:
 ======
-* Aug. 2024 - Present: The Chinese University Hong Kong
+* Aug. 2024 - Present: The Chinese University of Hong Kong
 
   Ph.D. Student in Computer Science and Engineering, Supervisor: Prof. [Tsung-Yi Ho](https://www.cse.cuhk.edu.hk/people/faculty/tsung-yi-ho/)
 
