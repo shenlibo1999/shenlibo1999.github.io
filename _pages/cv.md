@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in School of Information and Communication Engineering, Beijing University of Posts and Telecommunications, 2021
+* B.Eng. in School of Information and Communication Engineering, Beijing University of Posts and Telecommunications, 2021
 * M.S. in Institute of Computing Technology, Chinese Academy of Sciences, 2024
 * Ph.D in The Chinese University of Hong Kong, 2028 (expected)
 
