@@ -34,9 +34,13 @@ Publications:
 
 Honors and Awards
 ------
-2024 Full Scholarship of CUHK
-2023 Director's Merit Scholarship of ICT
+Full Postgraduate Studentship, CUHK, 2024-2028
 
+Outstanding Graduation Thesis, ICT, CAS, 2024
+
+Director's outstanding scholarship, ICT, CAS, 2023
+
+Merit Student, UCAS, 2022
 
 
 News
