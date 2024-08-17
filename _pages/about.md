@@ -10,7 +10,7 @@ redirect_from:
 
 I'm Shen Libo(沈力博), currently a Ph.D. candidate at the Department of Computer Science and Engineering, The Chinese University of Hong Kong, under the supervision of Prof. [Tsung-Yi Ho](https://www.cse.cuhk.edu.hk/people/faculty/tsung-yi-ho/) since Fall 2024. Now I work with [Postdoc Shulin Zeng](https://nicsefc.ee.tsinghua.edu.cn/people/ShulinZeng). 
 
-Research Interest:Emerging Architecture, HW/SW Codesign, EDA
+Research Interest: Emerging Architecture, HW/SW Codesign, EDA
 
 Education:
 ======
@@ -42,10 +42,10 @@ Honors and Awards
 
 News
 ------
-* August,2024: I joined CSE, CUHK
-* July,2024: I graduated from ICT,CAS. Thanks to my advisor Xiaoming Chen. Best wishes to our teammates.
+* August, 2024: I joined CSE, CUHK
+* July, 2024: I graduated from ICT,CAS. Thanks to my advisor Xiaoming Chen. Best wishes to our teammates.
 
 Teaching
 ------
-to be confirmed.
+To be confirmed.
 
