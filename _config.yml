@@ -83,9 +83,9 @@ author:
   name             : "Shen Libo"
   avatar           : "slbprofile.jpg"
   bio              : "Ph.D Student in CSE, CUHK"
-  location         : "Location"
+  location         : "HongKong SAR, ShaTin"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=BHCzmswAAAAJ&hl=en"
   email            : "1155230079@link.cuhk.edu.hk"
   # researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
