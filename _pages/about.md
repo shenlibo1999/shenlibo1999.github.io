@@ -47,5 +47,5 @@ News
 
 Teaching
 ------
-To be confirmed.
+Discrete Mathematics for Engineers (ENGG2440A).
 
