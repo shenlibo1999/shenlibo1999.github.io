@@ -59,5 +59,6 @@ TVLSI
 Teaching
 ------
 [2025 Spring]Principles and Python Programming (CSCI1550).
+
 [2024 Fall]Discrete Mathematics for Engineers (ENGG2440A).
 
