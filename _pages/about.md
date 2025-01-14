@@ -28,7 +28,12 @@ Education:
 
 Publications:
 ======
+Journal:
+------
 * **[D&T]** Rui Liu, Zerun Li, Xiaoyu Zhang, Wanqian Li, **Libo Shen**, Rui Tang, Zhejian Luo, Xiaoming Chen, Yinhe Han, Minghua Tang, "Crypto-DSEDA: A Domain-specific EDA Flow for CiM-based Cryptographic Accelerators", IEEE Design & Test, 2024.
+
+Conference:
+------
 * **[ICCAD'23]** **Libo Shen**, Boyu Long, Rui Liu, Xiaoyu Zhang, Yinhe Han, Xiaoming Chen, "LIM-GEN: A Data-Guided Framework for Automated Generation of Heterogeneous Logic-in-Memory Architecture", 2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD).
 * **[ICCAD'23]** Boyu Long, **Libo Shen**, Xiaoyu Zhang, Yinhe Han, Xian-He Sun, Xiaoming Chen, "Meltrix: A RRAM-Based Polymorphic Architecture Enhanced by Function Synthesis" 2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD).
 
@@ -45,7 +50,14 @@ News
 * August, 2024: I joined CSE, CUHK
 * July, 2024: I graduated from ICT,CAS. Thanks to my advisor Xiaoming Chen. Best wishes to our teammates.
 
+SERVICE
+======
+Reviewer
+------
+TVLSI
+
 Teaching
 ------
-Discrete Mathematics for Engineers (ENGG2440A).
+[2025 Spring]Principles and Python Programming (CSCI1550).
+[2024 Fall]Discrete Mathematics for Engineers (ENGG2440A).
 
