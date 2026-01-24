@@ -1,0 +1,15 @@
+{% assign pubs = site.publications %}
+{% assign confs = pubs | where: 'pubtype', 'C' | sort: 'pubid' %}
+{% assign journals = pubs | where: 'pubtype', 'J' | sort: 'pubid' %}
+
+{% if confs.size > 0 %}
+<p class="pub-index"><strong>Conference:</strong>
+{% for post in confs %}[C{{ post.pubid }}]{% unless forloop.last %}, {% endunless %}{% endfor %}
+</p>
+{% endif %}
+
+{% if journals.size > 0 %}
+<p class="pub-index"><strong>Journal:</strong>
+{% for post in journals %}[J{{ post.pubid }}]{% unless forloop.last %}, {% endunless %}{% endfor %}
+</p>
+{% endif %}

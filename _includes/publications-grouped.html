@@ -1,0 +1,22 @@
+{% assign pubs = site.publications | sort: 'date' | reverse %}
+
+{% assign confs = pubs | where: 'pubtype', 'C' %}
+{% assign journals = pubs | where: 'pubtype', 'J' %}
+
+{% if confs.size > 0 %}
+<h3>Conference Papers</h3>
+<ul class="pub-list">
+{% for post in confs %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if journals.size > 0 %}
+<h3>Journal Articles</h3>
+<ul class="pub-list">
+{% for post in journals %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+{% endif %}

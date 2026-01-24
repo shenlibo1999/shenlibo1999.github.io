@@ -9,61 +9,80 @@ redirect_from:
 
 <div class="home-layout">
 
-<div class="home-left">
+  <div class="home-left">
+    <img src="/images/bio-photo.jpg" class="profile-photo" alt="Libo Shen">
+    <h3>Libo Shen</h3>
+    <p>
+      Ph.D. candidate<br/>
+      Department of Computer Science and Engineering<br/>
+      The Chinese University of Hong Kong
+    </p>
 
-### Libo Shen
+    <p><strong>Research Interests</strong><br/>
+      Emerging Architecture · HW/SW Co-design · EDA · Logic-in-Memory
+    </p>
 
-Ph.D. candidate, Department of Computer Science and Engineering  \
-The Chinese University of Hong Kong
+    <p><strong>Email</strong><br/>
+      shenlibo [at] cuhk.edu.hk
+    </p>
 
-**Research Interests**  \
-Emerging Architecture · HW/SW Co-design · EDA · Logic-in-Memory
+    <p>
+      <a href="#">Google Scholar</a> ·
+      <a href="#">GitHub</a> ·
+      <a href="#">CV</a>
+    </p>
+  </div>
 
-**Email**: shenlibo [at] cuhk.edu.hk  \
-[Google Scholar](#) · [GitHub](#) · [CV](#)
+  <div class="home-right">
 
-</div>
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a Ph.D. candidate at the Department of Computer Science and Engineering,
+        The Chinese University of Hong Kong, supervised by
+        Prof. <a href="https://www.cse.cuhk.edu.hk/people/faculty/tsung-yi-ho/">Tsung-Yi Ho</a>.
+        My research focuses on emerging architectures, HW/SW co-design, and EDA,
+        with recent emphasis on logic-in-memory and CiM-based accelerators.
+      </p>
+    </section>
 
-<div class="home-right">
+    <section>
+  <h2>Publications</h2>
+  {% include publications-index.html %}
+  {% include publications-grouped.html %}
+</section>
 
-## About
+    <section>
+      <h2>News</h2>
+      <ul>
+        <li><strong>2024-08</strong> Joined CSE, CUHK as a Ph.D. student</li>
+        <li><strong>2024-07</strong> Graduated from ICT, CAS</li>
+      </ul>
+    </section>
 
-I am a Ph.D. candidate at the Department of Computer Science and Engineering, The Chinese University of Hong Kong, supervised by Prof. [Tsung-Yi Ho](https://www.cse.cuhk.edu.hk/people/faculty/tsung-yi-ho/). My research focuses on emerging architectures, HW/SW co-design, and EDA, with recent emphasis on logic-in-memory and CiM-based accelerators.
+    <section>
+      <h2>Education</h2>
+      <table>
+        <tr><th>Year</th><th>Degree</th><th>Institution</th></tr>
+        <tr><td>2024–</td><td>Ph.D.</td><td>CUHK</td></tr>
+        <tr><td>2021–2024</td><td>M.S.</td><td>UCAS (ICT, CAS)</td></tr>
+        <tr><td>2017–2021</td><td>B.E.</td><td>BUPT</td></tr>
+      </table>
+    </section>
 
-## Publications
+    <section>
+      <h2>Teaching &amp; Service</h2>
+      <p><strong>Teaching</strong></p>
+      <ul>
+        <li>2025 Spring — CSCI1550, CUHK</li>
+        <li>2024 Fall — ENGG2440A, CUHK</li>
+      </ul>
+      <p><strong>Service</strong></p>
+      <ul>
+        <li>Reviewer: IEEE TVLSI</li>
+      </ul>
+    </section>
 
-**2024**  \
-Libo Shen, Rui Liu, Zerun Li, Xiaoyu Zhang, Wanqian Li, Rui Tang, Zhejian Luo, Xiaoming Chen, Yinhe Han, Minghua Tang.  \
-_Crypto-DSEDA: A Domain-specific EDA Flow for CiM-based Cryptographic Accelerators._ **IEEE Design & Test**
-
-**2023**  \
-Libo Shen, Boyu Long, Rui Liu, Xiaoyu Zhang, Yinhe Han, Xiaoming Chen.  \
-_LIM-GEN: A Data-Guided Framework for Automated Generation of Heterogeneous Logic-in-Memory Architecture._ **ICCAD 2023**  \
-Boyu Long, Libo Shen, Xiaoyu Zhang, Yinhe Han, Xian-He Sun, Xiaoming Chen.  \
-_Meltrix: A RRAM-Based Polymorphic Architecture Enhanced by Function Synthesis._ **ICCAD 2023**
-
-## News
-
-- **2024-08** Joined CSE, CUHK as a Ph.D. student
-- **2024-07** Graduated from ICT, CAS
-
-## Education
-
-| Year | Degree | Institution |
-|------|--------|-------------|
-| 2024– | Ph.D. | CUHK |
-| 2021–2024 | M.S. | UCAS (ICT, CAS) |
-| 2017–2021 | B.E. | BUPT |
-
-## Teaching & Service
-
-**Teaching**
-- 2025 Spring — CSCI1550, CUHK
-- 2024 Fall — ENGG2440A, CUHK
-
-**Service**
-- Reviewer: IEEE TVLSI
-
-</div>
+  </div>
 
 </div>
