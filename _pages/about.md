@@ -19,7 +19,7 @@ redirect_from:
     </p>
 
     <p><strong>Research Interests</strong><br/>
-      Emerging Architecture · HW/SW Co-design · EDA · Logic-in-Memory
+      Emerging Architecture · HW/SW Co-design · EDA
     </p>
 
     <p><strong>Email</strong><br/>
@@ -28,8 +28,7 @@ redirect_from:
 
     <p>
       <a href="#">Google Scholar</a> ·
-      <a href="#">GitHub</a> ·
-      <a href="#">CV</a>
+      <a href="#">GitHub</a> 
     </p>
   </div>
 
@@ -41,8 +40,8 @@ redirect_from:
         I am a Ph.D. candidate at the Department of Computer Science and Engineering,
         The Chinese University of Hong Kong, supervised by
         Prof. <a href="https://www.cse.cuhk.edu.hk/people/faculty/tsung-yi-ho/">Tsung-Yi Ho</a>.
-        My research focuses on emerging architectures, HW/SW co-design, and EDA,
-        with recent emphasis on logic-in-memory and CiM-based accelerators.
+        My research focuses on emerging architectures, HW/SW co-design, and EDA.
+        I work with Doctor <a href="https://nicsefc.ee.tsinghua.edu.cn/people/ShulinZeng">Shulin Zeng</a> and <a href="https://nicsefc.ee.tsinghua.edu.cn/people/ZhenhuaZhu">Zhenhua Zhu</a>.
       </p>
     </section>
 
@@ -74,6 +73,8 @@ redirect_from:
       <h2>Teaching &amp; Service</h2>
       <p><strong>Teaching</strong></p>
       <ul>
+        <li>2026 Spring — CENG3420, CUHK</li>
+        <li>2025 Fall — ENGG2440A, CUHK</li>
         <li>2025 Spring — CSCI1550, CUHK</li>
         <li>2024 Fall — ENGG2440A, CUHK</li>
       </ul>
