@@ -10,7 +10,7 @@ redirect_from:
 <div class="home-layout">
 
   <div class="home-left">
-    <img src="/images/bio-photo.jpg" class="profile-photo" alt="Libo Shen">
+    <img src="/images/shen.jpg" class="profile-photo" alt="Libo Shen">
     <h3>Libo Shen</h3>
     <p>
       Ph.D. candidate<br/>

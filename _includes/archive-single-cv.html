@@ -9,7 +9,8 @@
     {% endif %}
     <span class="pub-title-text">{{ post.title }}</span>
     {% if post.paperurl %}
-      <a class="pub-pdf" href="{{ post.paperurl }}" aria-label="PDF"><i class="fa fa-file-pdf-o"></i></a>
+      <a class="pub-pdf" href="{{ post.paperurl }}" target="_blank">[pdf]</a>
+      <a class="pub-pdf-icon" href="{{ post.paperurl }}" target="_blank" aria-label="PDF"><i class="fa fa-file-pdf-o"></i></a>
     {% endif %}
     <br/>
     {% if post.authors %}<span class="pub-authors">{{ post.authors }}</span>. {% endif %}
