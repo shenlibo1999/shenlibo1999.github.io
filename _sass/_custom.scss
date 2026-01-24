@@ -422,3 +422,18 @@ a:hover {
   }
 }
 
+
+/* === Custom layout tweaks: widen main content === */
+#main {
+  @include breakpoint($x-large) {
+    max-width: 1400px;
+  }
+}
+
+.page {
+  @include breakpoint($large) {
+    @include span(11 of 12 last);
+    @include prefix(0.5 of 12);
+    @include suffix(0.5 of 12);
+  }
+}

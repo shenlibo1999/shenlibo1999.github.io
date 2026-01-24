@@ -1,5 +1,5 @@
 {% include base_path %}
-{% assign year = post.date | date: "%Y" %}
+{% if post.year %}{% assign year = post.year %}{% else %}{% assign year = post.date | date: "%Y" %}{% endif %}
 
 <li class="pub-item">
   <span class="pub-year">{{ year }}</span>
