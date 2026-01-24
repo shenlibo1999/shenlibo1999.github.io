@@ -1,65 +1,69 @@
 ---
 permalink: /
-title: "Mcdonjuan's page"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
+title: "Libo Shen"
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I'm Shen Libo(沈力博), currently a Ph.D. candidate at the Department of Computer Science and Engineering, The Chinese University of Hong Kong, under the supervision of Prof. [Tsung-Yi Ho](https://www.cse.cuhk.edu.hk/people/faculty/tsung-yi-ho/) since Fall 2024. Now I work with Postdoc [Shulin Zeng](https://nicsefc.ee.tsinghua.edu.cn/people/ShulinZeng). 
+<div class="home-layout">
 
-Research Interest: Emerging Architecture, HW/SW Codesign, EDA
+<div class="home-left">
 
-Education:
-======
-* Aug. 2024 - Present: The Chinese University of Hong Kong
+### Libo Shen
 
-  Ph.D. Student in Computer Science and Engineering, Supervisor: Prof. [Tsung-Yi Ho](https://www.cse.cuhk.edu.hk/people/faculty/tsung-yi-ho/)
+Ph.D. candidate, Department of Computer Science and Engineering  \
+The Chinese University of Hong Kong
 
-* Sep. 2021 - Jun. 2024: University of Chinese Academy of Sciences (Institute of Computing Technology,Chinese Academy of Sciences)
+**Research Interests**  \
+Emerging Architecture · HW/SW Co-design · EDA · Logic-in-Memory
 
-  M.S. in Computer Technology, Supervisor: Prof. [Xiaoming Chen](https://people.ucas.edu.cn/~chenxm)
+**Email**: shenlibo [at] cuhk.edu.hk  \
+[Google Scholar](#) · [GitHub](#) · [CV](#)
 
-* Sep. 2017 - Jun. 2021: Beijing University of Posts and Telecommunications
+</div>
 
-  B.E. in Communication Engineering.
+<div class="home-right">
 
-Publications:
-======
+## About
 
-Journal:
-------
-* **[D&T]** Rui Liu, Zerun Li, Xiaoyu Zhang, Wanqian Li, **Libo Shen**, Rui Tang, Zhejian Luo, Xiaoming Chen, Yinhe Han, Minghua Tang, "Crypto-DSEDA: A Domain-specific EDA Flow for CiM-based Cryptographic Accelerators", IEEE Design & Test, 2024.
+I am a Ph.D. candidate at the Department of Computer Science and Engineering, The Chinese University of Hong Kong, supervised by Prof. [Tsung-Yi Ho](https://www.cse.cuhk.edu.hk/people/faculty/tsung-yi-ho/). My research focuses on emerging architectures, HW/SW co-design, and EDA, with recent emphasis on logic-in-memory and CiM-based accelerators.
 
-Conference:
-------
-* **[ICCAD'23]** **Libo Shen**, Boyu Long, Rui Liu, Xiaoyu Zhang, Yinhe Han, Xiaoming Chen, "LIM-GEN: A Data-Guided Framework for Automated Generation of Heterogeneous Logic-in-Memory Architecture", 2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD).
-* **[ICCAD'23]** Boyu Long, **Libo Shen**, Xiaoyu Zhang, Yinhe Han, Xian-He Sun, Xiaoming Chen, "Meltrix: A RRAM-Based Polymorphic Architecture Enhanced by Function Synthesis" 2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD).
+## Publications
 
-Honors and Awards
-------
-* Full Postgraduate Studentship, CUHK, 2024-2028
-* Outstanding Graduation Thesis, ICT, CAS, 2024
-* Director's outstanding scholarship, ICT, CAS, 2023
-* Merit Student, UCAS, 2022
+**2024**  \
+Libo Shen, Rui Liu, Zerun Li, Xiaoyu Zhang, Wanqian Li, Rui Tang, Zhejian Luo, Xiaoming Chen, Yinhe Han, Minghua Tang.  \
+_Crypto-DSEDA: A Domain-specific EDA Flow for CiM-based Cryptographic Accelerators._ **IEEE Design & Test**
 
+**2023**  \
+Libo Shen, Boyu Long, Rui Liu, Xiaoyu Zhang, Yinhe Han, Xiaoming Chen.  \
+_LIM-GEN: A Data-Guided Framework for Automated Generation of Heterogeneous Logic-in-Memory Architecture._ **ICCAD 2023**  \
+Boyu Long, Libo Shen, Xiaoyu Zhang, Yinhe Han, Xian-He Sun, Xiaoming Chen.  \
+_Meltrix: A RRAM-Based Polymorphic Architecture Enhanced by Function Synthesis._ **ICCAD 2023**
 
-News
-------
-* August, 2024: I joined CSE, CUHK
-* July, 2024: I graduated from ICT,CAS. Thanks to my advisor Xiaoming Chen. Best wishes to our teammates.
+## News
 
-SERVICE
-======
-Reviewer
-------
-TVLSI
+- **2024-08** Joined CSE, CUHK as a Ph.D. student
+- **2024-07** Graduated from ICT, CAS
 
-Teaching
-------
-[2025 Spring]Principles and Python Programming (CSCI1550).
+## Education
 
-[2024 Fall]Discrete Mathematics for Engineers (ENGG2440A).
+| Year | Degree | Institution |
+|------|--------|-------------|
+| 2024– | Ph.D. | CUHK |
+| 2021–2024 | M.S. | UCAS (ICT, CAS) |
+| 2017–2021 | B.E. | BUPT |
 
+## Teaching & Service
+
+**Teaching**
+- 2025 Spring — CSCI1550, CUHK
+- 2024 Fall — ENGG2440A, CUHK
+
+**Service**
+- Reviewer: IEEE TVLSI
+
+</div>
+
+</div>
