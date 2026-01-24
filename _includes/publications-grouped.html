@@ -1,4 +1,4 @@
-{% assign pubs = site.publications | sort: 'date' | reverse %}
+{% assign pubs = site.publications | sort: 'year' | reverse %}
 
 {% assign confs = pubs | where: 'pubtype', 'C' %}
 {% assign journals = pubs | where: 'pubtype', 'J' %}
