@@ -21,19 +21,21 @@
   </ul>
 </div>
 
-<!-- Visitor Statistics -->
-<div class="page__footer-visitor" style="margin: 1em 0 0.5em 0; text-align: center; font-size: 0.85em; color: #666;">
-  👣 访问量：
-  <span id="busuanzi_container_site_pv">
-    <span id="busuanzi_value_site_pv"></span>
-  </span>
-  ｜访客数：
-  <span id="busuanzi_container_site_uv">
-    <span id="busuanzi_value_site_uv"></span>
-  </span>
+<!-- Ultra-compact Visitor Statistics -->
+<div class="page__footer-visitor"
+     style="margin: 0; padding: 0; text-align: center; font-size: 0.75em; line-height: 1.2; color: #777;">
+  <span id="busuanzi_container_site_pv">PV <span id="busuanzi_value_site_pv"></span></span>
+  ·
+  <span id="busuanzi_container_site_uv">UV <span id="busuanzi_value_site_uv"></span></span>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright" style="margin-top: 0.3em;">
+  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+  {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
+  <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp;
+  <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>,
+  a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+</div>
 
 <!-- Busuanzi Visitor Counter -->
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
