@@ -1,13 +1,13 @@
-{% assign pubs = site.publications | sort: 'year' | reverse %}
+{% comment %}
+Professor-level ordering rules:
+1. Journal first, Conference second
+2. Within each group: sort by year DESC (newest first)
+{% endcomment %}
 
-{%- comment -%}
-Ordering rule (professor-level):
-1. Journal first, then Conference
-2. Newer year first (already ensured by sort: year | reverse)
-{%- endcomment -%}
+{%- assign all_pubs = site.publications -%}
 
-{% assign journals = pubs | where: 'pubtype', 'J' %}
-{% assign confs = pubs | where: 'pubtype', 'C' %}
+{%- assign journals = all_pubs | where: 'pubtype', 'J' | sort: 'year' | reverse -%}
+{%- assign confs    = all_pubs | where: 'pubtype', 'C' | sort: 'year' | reverse -%}
 
 {% if journals.size > 0 %}
 <h3>Journal Articles</h3>
