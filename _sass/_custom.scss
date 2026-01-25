@@ -457,3 +457,8 @@ a:hover {
   color: #d62728; /* red for journals */
   font-weight: 600;
 }
+
+/* Highlight my name in publications */
+.pub-authors .author-me {
+  font-weight: 700;
+}
