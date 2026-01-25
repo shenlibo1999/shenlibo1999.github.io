@@ -27,8 +27,8 @@ redirect_from:
     </p>
 
     <p>
-      <a href="#">Google Scholar</a> ·
-      <a href="#">GitHub</a> 
+      <a href="https://scholar.google.com/citations?user=BHCzmswAAAAJ&hl=en">Google Scholar</a> ·
+      <a href="https://github.com/BUPTslb">GitHub</a> 
     </p>
   </div>
 
@@ -37,7 +37,7 @@ redirect_from:
     <section>
       <h2>About</h2>
       <p>
-        I am a Ph.D. candidate at the Department of Computer Science and Engineering,
+        I am a Ph.D. Student at the Department of Computer Science and Engineering,
         The Chinese University of Hong Kong, supervised by
         Prof. <a href="https://www.cse.cuhk.edu.hk/people/faculty/tsung-yi-ho/">Tsung-Yi Ho</a>.
         My research focuses on emerging architectures, HW/SW co-design, and EDA.
