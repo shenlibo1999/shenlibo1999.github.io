@@ -41,48 +41,62 @@ redirect_from:
         The Chinese University of Hong Kong, supervised by
         Prof. <a href="https://www.cse.cuhk.edu.hk/people/faculty/tsung-yi-ho/">Tsung-Yi Ho</a>.
         My research focuses on emerging architectures, HW/SW co-design, and EDA.
-        I work with Doctor <a href="https://nicsefc.ee.tsinghua.edu.cn/people/ShulinZeng">Shulin Zeng</a> and <a href="https://nicsefc.ee.tsinghua.edu.cn/people/ZhenhuaZhu">Zhenhua Zhu</a>.
+        I work with Dr. <a href="https://nicsefc.ee.tsinghua.edu.cn/people/ShulinZeng">Shulin Zeng</a> and
+        <a href="https://nicsefc.ee.tsinghua.edu.cn/people/ZhenhuaZhu">Zhenhua Zhu</a>.
       </p>
     </section>
 
     <section>
-  <h2>Publications</h2>
-  {% include publications-index.html %}
-  {% include publications-grouped.html %}
-</section>
+      <h2>Publications</h2>
+      {% include publications-index.html %}
+      {% include publications-grouped.html %}
+    </section>
 
     <section>
       <h2>News</h2>
       <ul>
-        <li><strong>2024-08</strong> Joined CSE, CUHK as a Ph.D. student</li>
-        <li><strong>2024-07</strong> Graduated from ICT, CAS</li>
+        <li><strong>2024-08</strong> Joined the Department of Computer Science and Engineering, The Chinese University of Hong Kong, as a Ph.D. student</li>
+        <li><strong>2024-07</strong> Graduated from the Institute of Computing Technology, Chinese Academy of Sciences</li>
       </ul>
     </section>
 
     <section>
       <h2>Education</h2>
-      <table>
-        <tr><th>Year</th><th>Degree</th><th>Institution</th></tr>
-        <tr><td>2024–</td><td>Ph.D.</td><td>CUHK</td></tr>
-        <tr><td>2021–2024</td><td>M.S.</td><td>UCAS (ICT, CAS)</td></tr>
-        <tr><td>2017–2021</td><td>B.E.</td><td>BUPT</td></tr>
-      </table>
+      <ul class="edu-list">
+        <li>
+          <strong>Ph.D. in Computer Science and Engineering</strong>,
+          The Chinese University of Hong Kong (2024–Present)
+        </li>
+        <li>
+          <strong>M.S. in Computer Science and Technology</strong>,
+          University of Chinese Academy of Sciences;<br/>
+          Institute of Computing Technology, Chinese Academy of Sciences (2021–2024)
+        </li>
+        <li>
+          <strong>B.E. in Electronic Engineering</strong>,
+          Beijing University of Posts and Telecommunications (2017–2021)
+        </li>
+      </ul>
     </section>
 
     <section>
       <h2>Teaching &amp; Service</h2>
       <p><strong>Teaching</strong></p>
       <ul>
-        <li>2026 Spring — CENG3420, CUHK</li>
-        <li>2025 Fall — ENGG2440A, CUHK</li>
-        <li>2025 Spring — CSCI1550, CUHK</li>
-        <li>2024 Fall — ENGG2440A, CUHK</li>
+        <li>2026 Spring — CENG3420, The Chinese University of Hong Kong</li>
+        <li>2025 Fall — ENGG2440A, The Chinese University of Hong Kong</li>
+        <li>2025 Spring — CSCI1550, The Chinese University of Hong Kong</li>
+        <li>2024 Fall — ENGG2440A, The Chinese University of Hong Kong</li>
       </ul>
+
       <p><strong>Service</strong></p>
-      <ul>
-        <li>Reviewer: IEEE TVLSI</li>
-        <li>Free Camera Chair: <a href="https://m.piufoto.com/album/1063211533/?menu=live"> ASP-DAC 2026</a></li>
-      </ul>
+      <div style="display:flex; align-items:flex-start; gap:1em;">
+        <img src="/images/aspdac26-cameraman.jpg" alt="ASP-DAC 2026 Service" style="width:120px; border-radius:6px;">
+        <ul>
+          <li>Reviewer: IEEE Transactions on Very Large Scale Integration (TVLSI)</li>
+          <li>Free Camera Chair: <a href="https://m.piufoto.com/album/1063211533/?menu=live">ASP-DAC 2026</a></li>
+        </ul>
+      </div>
     </section>
 
   </div>
