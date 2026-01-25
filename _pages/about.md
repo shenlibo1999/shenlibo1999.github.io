@@ -68,12 +68,12 @@ redirect_from:
           The Chinese University of Hong Kong (2024–Present)
         </li>
         <li>
-          <strong>M.S. in Computer Science and Technology</strong>,
+          <strong>M.S. in Computer Technology</strong>,
           University of Chinese Academy of Sciences;<br/>
           Institute of Computing Technology, Chinese Academy of Sciences (2021–2024)
         </li>
         <li>
-          <strong>B.E. in Electronic Engineering</strong>,
+          <strong>B.E. in Communication Engineering</strong>,
           Beijing University of Posts and Telecommunications (2017–2021)
         </li>
       </ul>
