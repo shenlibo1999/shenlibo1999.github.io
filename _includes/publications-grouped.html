@@ -1,21 +1,27 @@
 {% assign pubs = site.publications | sort: 'year' | reverse %}
 
-{% assign confs = pubs | where: 'pubtype', 'C' %}
-{% assign journals = pubs | where: 'pubtype', 'J' %}
+{%- comment -%}
+Ordering rule (professor-level):
+1. Journal first, then Conference
+2. Newer year first (already ensured by sort: year | reverse)
+{%- endcomment -%}
 
-{% if confs.size > 0 %}
-<h3>Conference Papers</h3>
-<ul class="pub-list">
-{% for post in confs %}
-  {% include archive-single-cv.html %}
-{% endfor %}
-</ul>
-{% endif %}
+{% assign journals = pubs | where: 'pubtype', 'J' %}
+{% assign confs = pubs | where: 'pubtype', 'C' %}
 
 {% if journals.size > 0 %}
 <h3>Journal Articles</h3>
 <ul class="pub-list">
 {% for post in journals %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if confs.size > 0 %}
+<h3>Conference Papers</h3>
+<ul class="pub-list">
+{% for post in confs %}
   {% include archive-single-cv.html %}
 {% endfor %}
 </ul>
