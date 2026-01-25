@@ -81,6 +81,7 @@ redirect_from:
       <p><strong>Service</strong></p>
       <ul>
         <li>Reviewer: IEEE TVLSI</li>
+        <li>Free Camera Chair: ASPDAC 2026</li>
       </ul>
     </section>
 
