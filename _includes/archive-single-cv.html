@@ -1,19 +1,35 @@
 {% include base_path %}
+{% assign myname = site.author.name | default: site.name %}
 {% if post.year %}{% assign year = post.year %}{% else %}{% assign year = post.date | date: "%Y" %}{% endif %}
 
-<li class="pub-item">
+{% assign authors = post.authors %}
+{% if authors and myname %}
+  {% assign authors = authors | replace: myname, '<strong class="me">' | append: '</strong>' %}
+{% endif %}
+
+<li class="pub-item {% if post.pubtype == 'J' %}pub-journal{% else %}pub-conf{% endif %}">
   <span class="pub-year">{{ year }}</span>
   <span class="pub-body">
-    {% if post.pubtype and post.pubid %}
-      <span class="pub-tag">[{{ post.pubtype }}{{ post.pubid }}]</span>
+    {% if post.venue_short %}
+      <span class="pub-venue-short">[{{ post.venue_short }}]</span>
     {% endif %}
-    <span class="pub-title-text">{{ post.title }}</span>
+
+    {% if authors %}
+      {{ authors }},
+    {% endif %}
+
+    <em>"{{ post.title }}"</em>,
+
+    {% if post.venue %}
+      in <em>{{ post.venue }}</em>
+    {% endif %}
+
+    {% if year %}
+      ({{ year }})
+    {% endif %}
+
     {% if post.paperurl %}
       <a class="pub-pdf" href="{{ post.paperurl }}" target="_blank">[pdf]</a>
-      <a class="pub-pdf-icon" href="{{ post.paperurl }}" target="_blank" aria-label="PDF"><i class="fa fa-file-pdf-o"></i></a>
     {% endif %}
-    <br/>
-    {% if post.authors %}<span class="pub-authors">{{ post.authors }}</span>. {% endif %}
-    {% if post.venue %}<span class="pub-venue">{{ post.venue }}</span>{% endif %}
   </span>
 </li>

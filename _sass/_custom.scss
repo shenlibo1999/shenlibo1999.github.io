@@ -437,3 +437,23 @@ a:hover {
     @include suffix(0.5 of 12);
   }
 }
+
+/* === Professor-level publication styling === */
+.pub-item {
+  margin-bottom: 0.8em;
+}
+
+.pub-item .me {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.pub-item.pub-conf .pub-venue-short {
+  color: #1f77b4; /* blue for conferences */
+  font-weight: 600;
+}
+
+.pub-item.pub-journal .pub-venue-short {
+  color: #d62728; /* red for journals */
+  font-weight: 600;
+}
