@@ -79,14 +79,22 @@ redirect_from:
       </ul>
     </section>
 
-    <section>
+        <section>
+      <h2>Honors</h2>
+      <ul>
+        <li><strong>2024</strong> — Full Postgraduate Scholarship, The Chinese University of Hong Kong, 2024 - 2028</li>
+        <li><strong>2023</strong> — Director’s Excellent Scholarship, Institute of Computing Technology, Chinese Academy of Sciences, 2023</li>
+      </ul>
+    </section>
+
+<section>
       <h2>Teaching &amp; Service</h2>
       <p><strong>Teaching</strong></p>
       <ul>
-        <li>2026 Spring — CENG3420, The Chinese University of Hong Kong</li>
-        <li>2025 Fall — ENGG2440A, The Chinese University of Hong Kong</li>
-        <li>2025 Spring — CSCI1550, The Chinese University of Hong Kong</li>
-        <li>2024 Fall — ENGG2440A, The Chinese University of Hong Kong</li>
+        <li>2026 Spring — CENG3420, Computer Organization and Design</li>
+        <li>2025 Fall — ENGG2440A, Discrete Mathematics for Engineers</li>
+        <li>2025 Spring — CSCI1550, Computer Principles and Python Programming</li>
+        <li>2024 Fall — ENGG2440A, 2025R1 Discrete Mathematics for Engineers</li>
       </ul>
 
       <p><strong>Service</strong></p>
