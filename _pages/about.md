@@ -23,7 +23,7 @@ redirect_from:
     </p>
 
     <p><strong>Email</strong><br/>
-      shenlibo [at] cuhk.edu.hk
+      lbshen24 [at] cse.cuhk.edu.hk
     </p>
 
     <p>
