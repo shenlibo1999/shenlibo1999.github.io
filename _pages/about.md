@@ -23,7 +23,7 @@ redirect_from:
     </p>
 
     <p><strong>Email</strong><br/>
-      lbshen24 [at] cse.cuhk.edu.hk
+      lbshen24[at]cse.cuhk.edu.hk
     </p>
 
     <p>
@@ -37,12 +37,10 @@ redirect_from:
     <section>
       <h2>About</h2>
       <p>
-        I am a Ph.D. Student at the Department of Computer Science and Engineering,
+        I am a 3rd Year Ph.D. Student at the Department of Computer Science and Engineering,
         The Chinese University of Hong Kong, supervised by
         Prof. <a href="https://www.cse.cuhk.edu.hk/people/faculty/tsung-yi-ho/">Tsung-Yi Ho</a>.
-        My research focuses on emerging architectures, HW/SW co-design, and EDA.
-        I work with Dr. <a href="https://nicsefc.ee.tsinghua.edu.cn/people/ShulinZeng">Shulin Zeng</a> and
-        <a href="https://nicsefc.ee.tsinghua.edu.cn/people/ZhenhuaZhu">Zhenhua Zhu</a>.
+        My research focuses on Architectures of Advanced Packaging, and Agentic EDA.
       </p>
     </section>
 
@@ -55,6 +53,8 @@ redirect_from:
     <section>
       <h2>News</h2>
       <ul>
+        <li><strong>2026-05</strong> Our paper “GPA: A General-Purpose In-Memory Computing Accelerator” was presented at ISCAS 2026</li>
+        <li><strong>2026-01</strong> Two papers on logic optimization and 3D-IC floorplanning were presented at ASP-DAC 2026</li>
         <li><strong>2024-08</strong> Joined the Department of Computer Science and Engineering, The Chinese University of Hong Kong, as a Ph.D. student</li>
         <li><strong>2024-07</strong> Graduated from the Institute of Computing Technology, Chinese Academy of Sciences</li>
       </ul>
@@ -66,11 +66,13 @@ redirect_from:
         <li>
           <strong>Ph.D. in Computer Science and Engineering</strong>,
           The Chinese University of Hong Kong (2024–Present)
+          Supervisor: Prof. <a href="https://www.cse.cuhk.edu.hk/people/faculty/tsung-yi-ho/">Tsung-Yi Ho</a>
         </li>
         <li>
           <strong>M.S. in Computer Technology</strong>,
           University of Chinese Academy of Sciences;<br/>
           Institute of Computing Technology, Chinese Academy of Sciences (2021–2024)
+          Supervisor: Prof. <a href="https://people.ucas.edu.cn/~chenxm">Xiaoming Chen</a>
         </li>
         <li>
           <strong>B.E. in Communication Engineering</strong>,
@@ -98,13 +100,18 @@ redirect_from:
       </ul>
 
       <p><strong>Service</strong></p>
-      <div style="display:flex; align-items:flex-start; gap:1em;">
-        <img src="/images/aspdac26-cameraman.jpg" alt="ASP-DAC 2026 Service" style="width:120px; border-radius:6px;">
-        <ul>
-          <li>Reviewer: IEEE Transactions on Very Large Scale Integration (TVLSI)</li>
-          <li>Free Camera Chair: <a href="https://m.piufoto.com/album/1063211533/?menu=live">ASP-DAC 2026</a></li>
-        </ul>
-      </div>
+      <ul>
+        <li>Reviewer: IEEE Transactions on Very Large Scale Integration (TVLSI)</li>
+        <li>Official Photographer: ASP-DAC 2026</li>
+      </ul>
+    </section>
+
+    <section class="beyond-research">
+      <h2>Beyond Research</h2>
+      <p>
+        Outside research, I enjoy photography, football, basketball, swimming and hiking.
+        These activities keep me curious, connected, and energized.
+      </p>
     </section>
 
   </div>

@@ -10,8 +10,8 @@
   <span class="pub-year">{{ year }}</span>
   <span class="pub-body">
 
-    {% if post.venue_short %}
-      <span class="pub-venue-short">[{{ post.venue_short }}]</span>
+    {% if post.pubtype and post.pubid %}
+      <span class="pub-label">[{{ post.pubtype }}{{ post.pubid }}]</span>
     {% endif %}
 
     {% if authors %}
