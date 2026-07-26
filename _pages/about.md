@@ -13,13 +13,14 @@ redirect_from:
     <img src="/images/shen.jpg" class="profile-photo" alt="Libo Shen">
     <h3>Libo Shen</h3>
     <p>
-      Ph.D. candidate<br/>
+      Ph.D. Candidate<br/>
       Department of Computer Science and Engineering<br/>
       The Chinese University of Hong Kong
     </p>
 
     <p><strong>Research Interests</strong><br/>
-      Emerging Architecture · HW/SW Co-design · EDA
+     Architectures of Advanced Packaging,
+     Agentic EDA.
     </p>
 
     <p><strong>Email</strong><br/>
